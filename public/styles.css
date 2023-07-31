@@ -1,8 +1,42 @@
-body
-{
-    text-align: center;
-    font-family: 'Handlee', cursive; 
-    background-color:whitesmoke;
-    background-image: url("https://transparenttextures.com/patterns/cartographer.png");
-    color: #fff;
+/** @format */
+
+body {
+  margin: 50px 300px;
+  padding: 20px 10px;
+  font-family: "Handlee", cursive;
+  background-color: whitesmoke;
+  background-image: url("https://transparenttextures.com/patterns/cartographer.png");
+  color: #fff;
+  border: solid;
+  height: inherit;
+}
+
+.heading-tag {
+  display: flex;
+  gap: 20px;
+  align-items: flex-end;
+}
+.heading-tag h1 {
+  padding: 0px 10px;
+  margin-bottom: 0;
+}
+.heading-bar {
+  border-radius: 5px;
+  margin: 10px auto;
+  height: 40px;
+  width: 100%;
+  background: linear-gradient(0deg, #626262 100%, rgba(181, 181, 181, 0.00) 100%);
+  box-shadow: -4px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+.heading-bar p{
+    padding: 6.5px 10px ;
+}
+
+.icon-image {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border: solid 4px #fff;
+  display: flex;
 }
