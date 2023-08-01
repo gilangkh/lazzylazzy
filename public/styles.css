@@ -41,10 +41,8 @@ body {
 }
 .note {
   text-align: center;
-  align-items: center;
-
   height: 350px;
-  width: 100%;
+  width: 30%;
   border: solid #fff;
   border-radius: 10px;
   margin: 10px 0 0;
@@ -76,10 +74,10 @@ body {
   transform: scale(1.1);
 }
 .content {
-  margin: 0 auto;
-  
-  justify-content: center;
-  gap: 100px;
+  display: flex;
+  justify-content: center; /* Mengatur pusat secara horizontal */
+  align-items: center; 
+  gap: 5%;
 }
 
 .icon-note{
