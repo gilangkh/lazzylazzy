@@ -13,7 +13,7 @@ body {
   gap: 10px;
   align-items: flex-end;
 }
-.heading-tag h3 {
+.heading-tag h2 {
   padding: 0px 10px;
   margin-bottom: 0;
 }
@@ -37,6 +37,7 @@ body {
   border: solid 4px #fff;
   background-color: #ccc;
   display: flex;
+
 }
 .note {
   text-align: center;
@@ -56,23 +57,19 @@ body {
 .note img {
   position: relative;
   margin: 20px 0 0;
-  left: 35%;
+
 }
 
 .note a {
-  position: relative;
-  top: 30%;
+  
   color: #c0d2d4;
-  align-items: end;
-  text-align: end;
-  justify-items: self-end;
-  padding: 5px 10px;
+  padding: 5px 20px;
   border-radius: 20px;
   border: 3px solid rgba(238, 238, 238, 0.41);
   background: #0067a2;
   box-shadow: -3px 6px 8px 0px rgba(255, 255, 255, 0.59) inset;
   text-decoration: none;
-  transition: transform 0.3s;
+  
 }
 
 .note a:hover{
@@ -83,4 +80,21 @@ body {
   
   justify-content: center;
   gap: 100px;
+}
+
+.icon-note{
+  display: flex;
+  justify-content: center; /* Mengatur pusat secara horizontal */
+  align-items: center; /* Mengatur pusat secara vertikal */
+  /* Atur lebar dan tinggi sesuai kebutuhan */
+  width: 100%;
+  height: 100px;
+}
+
+.link{
+  display: flex;
+  justify-content: center; /* Mengatur pusat secara horizontal */
+  align-items: flex-end ; 
+  width: 100%;
+  height: 100px;
 }

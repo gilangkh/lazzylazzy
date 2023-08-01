@@ -21,7 +21,7 @@ const mySosmed = [
     id:3,
     name: "LazzyLazzy",
     icon: "https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-instagram-icon-png-image_6315974.png",
-    tag: "@lazzylazzy",
+    tag: "@lazzylazzy6",
     link: "https://www.instagram.com/lazzylazzy6/",
     linkName:"My Instagram"
   }
