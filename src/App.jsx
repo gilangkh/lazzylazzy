@@ -23,7 +23,8 @@ function App() {
           sosmed_name={props.name}
           sosmed_tag={props.tag}
           icon={props.icon}
-          link={props.link} />
+          link={props.link} 
+          linkName={props.linkName}/>
         ))}
       </div>
     </div>

@@ -45,7 +45,7 @@ body {
   width: 200px;
   border: solid #fff;
   border-radius: 10px;
-  margin: 100px 20 0;
+  margin: 10px 0 0;
 }
 
 .note img{
@@ -68,8 +68,8 @@ body {
 }
 
 .content{
-  margin: 50px 20px;
+  margin: 50px 10%;
   display: inline-flex;
   flex-wrap: wrap;
-  gap: 150px;
+  gap: 100px;
 }
