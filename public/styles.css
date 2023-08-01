@@ -3,7 +3,7 @@
 body {
   margin: 30px 200px;
   padding: 20px 10px;
-  font-family: "Handlee", cursive;
+  font-family:   cursive;
   background-image: url("https://transparenttextures.com/patterns/cartographer.png");
   color: #fff;
 }
@@ -43,7 +43,7 @@ body {
   align-items: center;
 
   height: 350px;
-  width: 250px;
+  width: 100%;
   border: solid #fff;
   border-radius: 10px;
   margin: 10px 0 0;
@@ -79,8 +79,8 @@ body {
   transform: scale(1.1);
 }
 .content {
-  margin: 50px 5%;
-  display: inline-flex;
-  flex-wrap: wrap;
+  margin: 0 auto;
+  
+  justify-content: center;
   gap: 100px;
 }
