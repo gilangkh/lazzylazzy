@@ -13,7 +13,7 @@ function App() {
     <div>
       <div className="heading-tag">
         <Icon img_url="./lazzy.png" />
-        <h3>Lazzy Lazzy </h3>
+        <h2>Lazzy Lazzy </h2>
       </div>
       <Headers />
       <div  className="content">

@@ -7,7 +7,7 @@ function Note(props){
     <Icon img_url={props.icon} />
     <h2>{props.sosmed_name}</h2>
     <p> {props.sosmed_tag}</p>
-    <a href={props.link}> {props.linkName} </a>
+    <a href={props.link} target='_blank' rel="noreferrer"> {props.linkName} </a>
  </div>
 
 }
