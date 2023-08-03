@@ -3,7 +3,8 @@
 body {
   margin: 30px 200px;
   padding: 20px 10px;
-  font-family:   system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background-image: url("https://transparenttextures.com/patterns/cartographer.png");
   color: #fff;
 }
@@ -37,7 +38,6 @@ body {
   border: solid 4px #fff;
   background-color: #ccc;
   display: flex;
-
 }
 .note {
   text-align: center;
@@ -53,13 +53,11 @@ body {
 }
 
 .note img {
-  position: relative;
+  
   margin: 20px 0 0;
-
 }
 
 .note a {
-  
   color: #c0d2d4;
   padding: 5px 20px;
   border-radius: 20px;
@@ -67,32 +65,32 @@ body {
   background: #0067a2;
   box-shadow: -3px 6px 8px 0px rgba(255, 255, 255, 0.59) inset;
   text-decoration: none;
-  
 }
 
-.note a:hover{
-  transform: scale(1.1);
+.note a:hover {
+  transform: scale(1.2);
 }
 .content {
   display: flex;
   justify-content: center; /* Mengatur pusat secara horizontal */
-  align-items: center; 
+  align-items: center;
   gap: 5%;
+
 }
 
-.icon-note{
+.note-items {
   display: flex;
-  justify-content: center; /* Mengatur pusat secara horizontal */
-  align-items: center; /* Mengatur pusat secara vertikal */
-  /* Atur lebar dan tinggi sesuai kebutuhan */
+  justify-content: center;
+  align-items: center; /* Mengatur pusat secara horizontal */
+  flex-direction: column;
   width: 100%;
-  height: 100px;
+  height: 100%;
 }
 
-.link{
+.link {
   display: flex;
   justify-content: center; /* Mengatur pusat secara horizontal */
-  align-items: flex-end ; 
+  align-items: flex-end;
   width: 100%;
   height: 100px;
 }
