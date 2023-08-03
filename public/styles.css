@@ -78,6 +78,7 @@ body {
 
 }
 
+
 .note-items {
   display: flex;
   justify-content: center;
@@ -93,4 +94,20 @@ body {
   align-items: flex-end;
   width: 100%;
   height: 100px;
+}
+
+
+.note-items-hover {
+  animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

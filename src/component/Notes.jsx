@@ -6,28 +6,35 @@ import Icon from "./Icons";
 function Note(props) {
   const [isMouseOver, setMouseOver] = useState(false);
 
-  function hadleMouseOver() {
+  function handleMouseOver() {
     setMouseOver(true);
   }
-  function hadleMouseOut() {
+  
+  function handleMouseOut() {
     setMouseOver(false);
   }
 
   return (
-    <div className="note" onMouseOver={hadleMouseOver} onMouseOut={hadleMouseOut} >
-      <div className="note-items">
+    <div
+      className="note"
+      onMouseOver={handleMouseOver}
+      onMouseOut={handleMouseOut}
+    >
+      <div className={`note-items ${isMouseOver ? "note-items-hover" : ""}`}>
+        <Icon img_url={props.icon} />
         {isMouseOver ? (
           <>
-            <Icon img_url={props.icon} />
             <h2>{props.sosmed_name}</h2>
-            <p> {props.sosmed_tag}</p>
+            <p>{props.sosmed_tag}</p>
             <div className="link">
               <a href={props.link} target="_blank" rel="noreferrer">
                 {props.linkName}
               </a>
             </div>
           </>
-        ):  <Icon img_url={props.icon} />}
+        ) : (
+          <p>{props.sosmed_tag}</p>
+        )}
       </div>
     </div>
   );
