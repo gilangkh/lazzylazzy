@@ -40,6 +40,9 @@ body {
   display: flex;
 }
 .note {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   height: 350px;
   width: 30%;
@@ -53,7 +56,6 @@ body {
 }
 
 .note img {
-  
   margin: 20px 0 0;
 }
 
@@ -75,17 +77,23 @@ body {
   justify-content: center; /* Mengatur pusat secara horizontal */
   align-items: center;
   gap: 5%;
-
 }
-
 
 .note-items {
   display: flex;
   justify-content: center;
   align-items: center; /* Mengatur pusat secara horizontal */
   flex-direction: column;
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height: 75%;
+  margin: 5px;
+  padding: 25px 8px;
+  font-size: small;
+  border-radius: 10px;
+  border: 1px solid #a1a1a1;
+  background: #555170;
+  box-shadow: -3px 4px 3px 0px rgba(0, 0, 0, 0.25) inset,
+    0px 8px 8px 0px rgba(89, 76, 76, 0.76);
 }
 
 .link {
@@ -95,7 +103,6 @@ body {
   width: 100%;
   height: 100px;
 }
-
 
 .note-items-hover {
   animation: fadeIn 0.5s ease;
