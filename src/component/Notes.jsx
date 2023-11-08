@@ -17,6 +17,7 @@ function Note(props) {
         </div>
       </div>
     </div>
+   
   );
 }
 
