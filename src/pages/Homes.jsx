@@ -6,6 +6,8 @@ import Note from "../component/Notes";
 import mySosmed from "../mySosmed";
 import Footer from "../component/Footer";
 
+
+
 function Home() {
   return (
     <div>
