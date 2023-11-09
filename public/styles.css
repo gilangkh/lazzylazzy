@@ -161,3 +161,16 @@ display: flex;
 align-items: center;
 justify-content: center;
 }
+
+.list-user{
+  display:  flex;
+  justify-content: space-around;
+  margin: 20px 30px;
+  border: solid 1x #626262;
+  border-radius: 30px;
+  width: 600px;
+  background-color: white;
+  color: #626262;
+  align-items: center;
+  height: 40px
+}

@@ -1,9 +1,11 @@
 import React from 'react';
 
 function ListUser(props){
+let no = 0
+ return <div className='list-user'>
 
- return <div>
-    <h1>{props.nama}</h1>
+    <p>{props.no}</p>
+    <p>{props.nama}</p>
     <p>{props.email}</p>
     <p>{props.alamat}</p>
  </div> 
